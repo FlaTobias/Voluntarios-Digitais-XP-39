@@ -1,0 +1,495 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao {
+    display: flex;
+    background: #fff;
+    align-items: center;
+    border-radius: 20px;
+    padding-right: 96px;
+    padding-left: 96px;
+    justify-content: space-between;
+    
+}
+
+.texto-barra {
+    display: flex;
+    align-items: center;
+}
+
+.texto-barra h1 {
+    font-size: 38px;
+}
+
+.texto-barra h2 {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    background: #FFFFFF;
+    align-items: center;
+
+}
+
+.nav li {
+    font-size: 14px;
+}
+
+li {
+    width:190px
+    
+}
+
+#botao-doar {
+    background: #EE6093;
+    border-radius: 24px;
+    padding: 13px 53px;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-size: 24px;
+}
+
+
+.container { 
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.banner {
+    background: url(../image/banner.png) center no-repeat;
+    background-size: cover;
+    height: 756px;
+}
+
+.titulo {
+    font-size: 64px;
+    font-size: 700;
+    color: #fff;    
+}
+
+.banner-subtitulo {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 39px;
+    margin-bottom: 43px;
+}
+
+.botao-banner {
+    font-size: 24px;
+    background: #EE6093;
+    border-radius: 20px;
+    padding: 16px 55px;
+    color:#fff;
+}
+
+.pagina-toda{
+    background-color: #E5E5E5;
+}
+
+/* Card */
+
+.texto-card{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+    padding-top: 100px;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+.card-total{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    width: 400px;
+    height: 269px;
+    margin:  10px;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.icone-texto {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    padding-top: 29px;
+    padding-left: 17px;
+    margin-bottom: 20px;
+    
+}
+
+.icone-texto h3 {
+    margin-left: 24px;
+
+}
+
+.card p{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+#texto-ajuda{
+    margin-top: 34px;
+    color: #6D5039;
+    font-weight: 700;
+}
+
+#texto-doacoes{
+    margin-top: 18px;
+    color: #EE6093;
+    font-weight: 700;
+}
+
+#texto-voluntario{
+    margin-top: 18px;
+    color: #B0D551;
+    font-weight: 700;
+
+}
+
+/* Quem é o Gav*/
+
+.quem-e {
+    display: flex;
+    
+    padding-left: 100px;
+}
+
+#titulo-quem-e{
+    color: #EE6093;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.texto-quem-e p {
+    font-size: 16px;
+    margin-top: 20px;
+    padding-right: 750px;
+}
+
+#subtitulo-quem-e {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 26px;
+    padding-right: 750px;
+}
+
+.botao-conheca {
+    background: #EE6093;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color:#fff;
+    padding: 9px 45px;
+    width: 160px;
+    margin-top: 30px;
+
+}
+
+.botao-conheca a {
+    color:#fff;
+}
+
+
+#voluntarios-lavando {
+    border-radius: 20px;
+    position: absolute;
+    top: 1513px;
+    right: 5px;
+    padding-right: 100px;
+}
+
+#bolas-rosa {
+    position: absolute;
+    left: 637px;
+}
+
+/* Campanhas */
+
+.campanha{
+    margin-top: 200px;
+}
+
+.texto-campanha-titulo p{
+    color: #B0D551;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.texto-campanha-subtitulo{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.texto-campanha-titulo{
+    padding-left: 100px;
+}
+
+.bloco-img-texto{
+    display: flex;
+}
+
+.texto-campanha p{
+    font-size: 16px;
+    margin-top: 50px;
+    padding-right: 100px;
+    padding-left: 55px;
+}
+
+#voluntario-segurando {
+    border-radius: 20px;
+    margin-top: -751px;
+    position: absolute;
+    left: 100px;
+    margin-right: 20px;
+}
+
+#voluntario-cesta {
+    border-radius: 20px;
+    position: relative;
+    top: -441px;
+    left: 483px;
+    margin-right: 20px;
+}
+
+.botao-participe{
+    background: #B0D551;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color:#fff;
+    padding: 9px 45px;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 55px;
+    
+}
+
+.botao-participe a{
+    color:black;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+/* Como doar */
+
+.bloco-como-doar{
+    background: #EE6093;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -350px;
+    height: 640px;
+    margin-bottom: 100px;
+}
+
+
+.titulo-como-doar{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.subtitulo-como-doar{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.bloco-card{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.card-whats-app{
+    background: #FFFFFF;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 244px;
+    height: 244px;
+    margin-right: 16px;
+    
+}
+
+.card-pix{
+    display: flex;
+    flex-flow: column nowrap;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 504px;
+    height: 244px;
+}
+
+.logo-pix-qrcode{
+    display: flex;
+}
+
+.card-paypal{
+    background: #FFFFFF;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 244px;
+    height: 244px;
+    margin-left: 16px;
+    padding-top: 13px;
+}
+
+.card-paypal img{
+    padding-top: 36px;
+}
+
+#texto-pix{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 45px;
+    padding-top: 22px;
+}
+
+#img-whats{
+    padding-top: 35px;
+}
+
+#logo-pix{
+    margin-right:  50px;
+    padding-left: 40px;
+    padding-top: 63px;
+}
+
+.logo-qrcode{
+    padding-right: 40px;
+    padding-top: 56px;
+}
+
+.card-whats-app p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 17px;
+}
+
+/* Contato */
+.bloco-contato {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.redes-mapa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-contato{
+    font-size: 16px;
+    color: #EE6093;
+    font-weight: 700;
+}
+
+.subtitulo-contato{
+    margin-top: 33px;
+    margin-bottom: 39px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card-facebook, .card-instagram, .card-whats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 337px;
+    height: 78px;
+    margin-bottom: 21px;
+}
+
+.card-rede-sociais p {
+    font-size: 24px;
+}
+#mapa {
+    padding-bottom: 70px;
+}
+
+
+/* footer */ 
+
+.footer{
+    background    : #B0D551;
+    padding-bottom: 20px;
+ 
+}
+
+.footer p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+.footer-bloco{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.footer-texto-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-texto-logo h2{
+    font-size: 38px;
+    font-weight: 600;
+}
+.footer-texto-logo h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#ul-footer{
+    list-style-type: none;
+    display: flex;
+    margin-left: 74px;
+    background: #B0D551;
+    align-items: center;
+
+}
+
+#botao-footer {
+    background: #fff;
+    border-radius: 24px;
+    padding: 13px 53px;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    color:#232323;
+    font-size: 24px;
+    font-weight: 600;
+}
