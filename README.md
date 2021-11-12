@@ -44,4 +44,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ---
 
-Feito com ♥ by Grupo 5 Do Desafio Voluntarios Digitais <img alt="Gav Banner" src=".github/logo-gama-svg" width="100%">
+Feito com ♥ by Grupo 5 Do Desafio Voluntarios Digitais <img alt="logo gama" src=".github/logo-gama.svg" width="100%">
