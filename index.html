@@ -25,14 +25,22 @@
                 <h2>Grupo Auxiliar de Voluntários</h2>
             </div>
         </div>
-        <div class="nav">
-            <ul>
-                <li><a href="#quem-e-link">Quem é o Gav?</a></li>
-                <li><a href="#">Campanhas</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><button id="botao-doar" href="#">Doar</button></li>
-            </ul>
+        <div class="navegacao__itens" id="menuResponsivo">
+            <div class="nav">
+                <ul>
+                    <li><a href="#quem-e-link">Quem é o Gav?</a></li>
+                    <li><a href="#campanha-link">Campanhas</a></li>
+                    <li><a href="#contato-link">Contato</a></li>
+                    <li><a id="botao-doar" href="#doar-link">Doar</a></li>
+                </ul>
+            </div>
         </div>
+        
+        <!-- <div class="nav-menu-hambs" id="btnResponsivo">
+            <a href="#">
+                <img src="/public/image/menu-hambs.png" alt="menu de navegação">
+            </a>
+        </div> -->
     </header>
 
 
@@ -41,7 +49,7 @@
         <div class="container">
             <h2 class="titulo">Juntos podemos fazer a diferença!</h2>
             <p class="banner-subtitulo ">Um sorriso. Um abraço. Um chá para aquecer.</p>
-            <button href="#sobre" class="botao-banner">Seja Voluntário(a)!</button>
+            <a href="#contato-link" class="botao-banner">Seja Voluntário(a)!</a>
         </div>
     </main>
     <!-- Card-->
@@ -81,7 +89,7 @@
             <!--Quem é o Gav-->
             <div class="quem-e" id="quem-e-link">
                 <div class="texto-quem-e">
-                    <p id="titulo-quem-e">Quem é o Gav?</p>
+                    <p id="titulo-quem-e">QUEM É O GAV?</p>
                     <h2 id="subtitulo-quem-e">Mais de 50 anos acolhendo quem precisa.</h2>
                     <p>O GAV é grupo filantrópico, legalmente constituído sob a forma de sociedade civil, sem fins
                         lucrativos, sem ideologia política-religiosa.
@@ -92,7 +100,7 @@
                         Hospital Regional de Sobradinho/DF (HRS) e em situação de vulnerabilidade social conforme
                         orientação do Serviço Social do HRS.
                     </p>
-                    <button class="botao-conheca"><a href="#">Conheça</a></button>
+                    <button class="botao-conheca"><a href="https://www.instagram.com/gavsobradinhodf/">Conheça</a></button>
                 </div>
                 <div class="img-quem-e">
                     <img id="bolas-rosa" src="/public/image/bolas-rosa.png" alt="bolas rosa">
@@ -103,9 +111,9 @@
             </div>
 
             <!--Campanhas-->
-            <div class="campanha">
+            <div class="campanha" id="campanha-link">
                 <div class="texto-campanha-titulo">
-                    <p>Campanhas</p>
+                    <p>CAMPANHAS</p>
                     <h2 class="texto-campanha-subtitulo">Veja um pouco sobre nossas campanhas:</h2>
                 </div>
 
@@ -126,7 +134,7 @@
                             assumiram o papel de cuidador e que por muitas vezes é esquecido pelo Estado, seja por um
                             café da manhã ou seja por um conforto emocional, assim, auxiliando como uma rede de apoio.
                         </p>
-                        <button class="botao-participe"><a href="#">Participe</a></button>
+                        <button class="botao-participe"><a href="http://wa.me/556199999535">Participe</a></button>
 
                     </div>
                 </div>
@@ -134,7 +142,7 @@
             </div>
 
             <!--Como doar-->
-            <div class="bloco-como-doar">
+            <div class="bloco-como-doar" id="doar-link">
                 <div class="bloco-como-doar-texto">
                     <h2 class="titulo-como-doar">Como doar?</h2>
                     <p class="subtitulo-como-doar">As doações estão disponíveis em várias plataformas para que sejam
@@ -144,7 +152,7 @@
                 <div class="bloco-card">
                     <div class="card-whats-app">
                         <img id="img-whats" src="/public/image/logo-whats.png" alt="logo whats">
-                        <p>Fale com a gente pelo (99) 99999-9999</p>
+                        <p>Fale com a gente pelo <br> (61) 9999-9535</p>
                     </div>
                     <div class="card-pix">
                         <div class="logo-pix-qrcode">
@@ -168,7 +176,7 @@
                 </div>
             </div>
             <!--Contato-->
-            <div class="bloco-contato">
+            <div class="bloco-contato" id="contato-link">
 
                 <div class="redes-mapa">
 
@@ -193,7 +201,7 @@
                                 <img src="/public/image/instagram-logo.png" alt="icone instagram">
                             </div>
                             <div id="texto-instagram">
-                                <p>@gav_sobradinho</p>
+                                <p>@gavsobradinhodf</p>
                             </div>
                         </div>
 
@@ -202,7 +210,7 @@
                                 <img src="/public/image/icone-whats.png" alt="icone whats">
                             </div>
                             <div id="texto-whats">
-                                <p>(00) 00000-0000</p>
+                                <p>(61) 9999-9535</p>
                             </div>
                         </div>
 
@@ -225,7 +233,7 @@
             </p>
             <div class="footer-bloco">
                 <div class="footer-texto-logo">
-                    <img src="/public/image/logo-gav3.png" alt="">
+                    <img src="/public/image/logo_gav_2__1_-removebg-preview.png" alt="">
                     <div>
                         <h2>GAV</h2>
                         <h3>Grupo Auxiliar de Voluntários</h3>
@@ -234,9 +242,9 @@
                 <div class="nav-footer">
                     <ul id="ul-footer">
                         <li><a href="#quem-e-link">Quem é o Gav?</a></li>
-                        <li><a href="#">Campanhas</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><button id="botao-footer" href="#">Doar</button></li>
+                        <li><a href="#campanha-link">Campanhas</a></li>
+                        <li><a href="#contato-link">Contato</a></li>
+                        <li><a id="botao-footer" href="#doar-link">Doar</a></li>
                     </ul>
                 </div>
             </div>
@@ -246,7 +254,7 @@
 
         </div>
     </section>
-
+<script src="/script.js"></script>
 </body>
 
 </html>
