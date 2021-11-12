@@ -12,7 +12,7 @@
 </p>
 
 <div align="center">
-  <a href="https://gavsobradinhodf.netlify.app/"><img alt="License" src="https://img.shields.io/static/v1?label=site&message=gav&color=49AA26&labelColor=000000"></a>
+  <a href="https://gavsobradinhodf.netlify.app/"><img alt="License" src="https://img.shields.io/static/v1?label=Link site&message=gav&color=49AA26&labelColor=000000"></a>
 </div>
 
 <br>
