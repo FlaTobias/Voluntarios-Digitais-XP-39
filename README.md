@@ -1,4 +1,4 @@
-<h1 align="center">Voluntarios-Digitais-XP-39</h1>
+<h1 align="center">Voluntarios Digitais XP-39</h1>
 
 <h1 align="center">
   <img alt="Logo Gav" title="Gav" src=".github/logo-gav-2.png" width="100px" />
