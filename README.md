@@ -1,4 +1,4 @@
-# Voluntarios-Digitais-XP-39
+<p align="center">Voluntarios-Digitais-XP-39</p>
 
 <h1 align="center">
   <img alt="Logo Gav" title="Gav" src=".github/logo-gav-2.png" width="100px" />
@@ -44,4 +44,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ---
 
-Feito com ♥ by Grupo 5 Do Desafio Voluntarios Digitais <img alt="logo gama" src=".github/logo-gama.svg" width="100%">
+Feito com ♥ by Grupo 5 Do Desafio Voluntarios Digitais da <img alt="logo gama" src=".github/logo-gama.svg"> XP-39
